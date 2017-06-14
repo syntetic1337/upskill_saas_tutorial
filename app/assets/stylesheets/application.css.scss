@@ -24,9 +24,10 @@ h1, h2, h3 {
 }
 
 .navbar, .home-callout{
-    background: #ee0979;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #457fca;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .home-callout {
@@ -36,7 +37,25 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
-
 .navbar{
   border:none;
+}
+
+.navbar-default .navbar-brand{
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white;
+ 
+}
+
+.navbar-default .navbar-brand:hover{
+  color:white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color:white;
+  opacity:0.75;
 }
