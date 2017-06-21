@@ -38,8 +38,14 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
+// Nav styles
 .navbar{
   border:none;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:80%;
 }
 
 .navbar-default .navbar-brand,
@@ -50,5 +56,7 @@ h1, h2, h3 {
   opacity: 0.75;
   }
 }
+
+
 
 
